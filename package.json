@@ -2,6 +2,6 @@
   "name": "sol-airdrop",
   "packageManager": "yarn@1.22.22",
   "dependencies": {
-    "@solana/web3.js": "^1.76.0"
+    "@solana/web3.js": "^1.95.4"
   }
 }

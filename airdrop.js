@@ -1,7 +1,7 @@
 const SOLANA = require('@solana/web3.js');
 const { Connection, PublicKey, LAMPORTS_PER_SOL, clusterApiUrl } = SOLANA;
 
-const SOLANA_CONNECTION = new Connection(clusterApiUrl('devnet'));
+const SOLANA_CONNECTION = new Connection(clusterApiUrl('devnet'), 'confirmed');
 const WALLET_ADDRESS = process.env.WALLET_ADDRESS; //👈 Replace with your wallet address
 const AIRDROP_AMOUNT = 1 * LAMPORTS_PER_SOL; // 1 SOL 
 
